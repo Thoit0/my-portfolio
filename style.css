@@ -1,0 +1,157 @@
+/* You can add custom CSS and extend Boostrap styles in this file. Remember, Bootstrap is just CSS at the end of the day! */
+body{
+  padding: relative;
+}
+#hero-section{
+  background-image: linear-gradient(
+    rgba(0,0,0,0.4),
+    rgba(0,0,0,0.7)), url("img/hero.jpg");
+  background-size: cover;
+  background-position: center;
+  width: 100%;
+  padding: 20%;
+  color: white;
+  text-align: center;
+  min-height: 20vh;
+}
+
+.profile-picture {
+  display: inline-block;
+  margin-bottom: 20px;
+  border-radius: 50%;
+  overflow: hidden;
+  border: 6px solid white;
+}
+
+.profile-picture img {
+  width: 125px; 
+  height: 125px; 
+  object-fit: cover;
+  border-radius: 50%;
+}
+
+h1{
+  color: white;
+  text-align: center;
+}
+
+.tagline {
+  font-size: 1 em;
+  font-style: italic;
+  color: #ccc;
+}
+  
+h2{
+  text-align: center;
+}
+
+section{
+  padding: 50px 0;
+}
+
+
+#about-me-section{
+  background-color: black ;
+  color: white;
+}
+ .about-me {
+   margin-top: 20px; 
+ }
+
+#skills-section{
+  background: linear-gradient(to bottom, #000000, #ffffff);
+  color: white;
+}
+#skills-section img {
+  max-width: 60px; 
+  height: auto; 
+  display: block;
+  margin: 0 auto; 
+}
+
+
+#contact-section{
+  /* background:linear-gradient(to top,#cccccc, white);
+  color: black; */
+  background: linear-gradient(to bottom, #cccccc, #000000);
+  color: white;
+}
+
+.social-icon {
+  color: #fafafa; 
+  transition: color 0.3s; 
+}
+
+.social-icon:hover {
+  color: #007bff; 
+}
+
+#project-section{
+  /* background: linear-gradient(to bottom, #cccccc, #000000);
+  color: black; */
+  background:linear-gradient(to top,#cccccc, white);
+  color: black;
+}
+.carousel-item img{
+  object-fit: contain;
+  object-position: center ;
+  height: 75vh;
+  /* width: 100%; */
+  overflow: hidden;
+}
+
+.carousel-item:after {
+  content:"";
+  position:absolute;
+  top:0;
+  bottom:0;
+  left:0;
+  right:0;
+  /* background:rgba(0,0,0,.3); */
+}
+.carousel-control-prev-icon {
+  filter: invert(1);
+}
+.carousel-control-next-icon {
+  filter: invert(1);
+}
+.carousel-caption{
+  z-index: 3;
+}
+.carousel-caption p {
+  font-size: 14px;
+}
+
+/* to change color of the text */
+/* aracde */
+.carousel-item:nth-child(2) .carousel-caption {
+  color: white;
+}
+/* car  */
+.carousel-item:nth-child(3) .carousel-caption {
+  color: black;
+}
+#carouselExampleCaptions .carousel-item:nth-child(3) h5 {
+  color: white; /* Change the color to white */
+}
+/* robot arm  */
+.carousel-item:nth-child(1) .carousel-caption {
+  color: white;
+}
+
+
+
+#footer-section{
+  background-color: black;
+  text-align: center;
+  color: white;
+  padding: 20px 0;
+}
+
+#about-me-target,
+#skills-target,
+#contact-target
+#project-target{
+  position: relative;
+  top: -100px;
+}
